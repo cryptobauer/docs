@@ -1,0 +1,38 @@
+title: Taraxa Validator Documentation
+#email: contact@cryptobauer.com
+description: >-
+  Documentation for validator node operators for the Taraxa blockDAG network.
+baseurl: ""
+url: "https://docs.cryptobauer.com"
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+permalink: pretty # generate pretty permalinks
+
+defaults:
+  - scope:
+      path: "docs/rpc"
+      type: "pages"
+    values:
+      layout: "default"
+      permalink: /rpc/:basename/
+
+theme: just-the-docs
+color_scheme: taraxa
+search_enabled: false
+
+nav_open: true
+
+mermaid:
+  version: 11.6.0
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+#plugins:
+#- ...
+
+exclude:
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
